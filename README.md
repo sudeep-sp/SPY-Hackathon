@@ -66,10 +66,10 @@ The pre-processed, normalized data is split into train and test data. These data
 import torch
 
 # Convert all tensors to float
-X_train = torch.tensor(X_train).float().to(device)
-X_test = torch.tensor(X_test).float().to(device)
-y_train = torch.tensor(y_train).float().to(device)
-y_test = torch.tensor(y_test).float().to(device)
+X_train = torch.tensor(X_train).float()
+X_test = torch.tensor(X_test).float()
+y_train = torch.tensor(y_train).float()
+y_test = torch.tensor(y_test).float()
 ```
 
 We have taken 3 virtual clients.
