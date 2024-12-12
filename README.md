@@ -1,6 +1,6 @@
 ## Privacy - Preserving Threat Detection using Federated Learning
 
-This project focuses on building a privacy-preserving threat detection system using Federated Learning (FL). The goal is to develop a machine-learning model capable of identifying security threats (such as malware, intrusions, or suspicious activities) without the need to share sensitive data between devices or organizations. Federated Learning allows model training on decentralized data, ensuring that private information remains local while still enabling the collaborative training of a global model.
+This project focuses on building a privacy-preserving threat detection system using Federated Learning (FL). The goal is to develop a machine-learning model capable of identifying security threats without the need to share sensitive data between devices or organizations. Federated Learning allows model training on decentralized data, ensuring that private information remains local while still enabling the collaborative training of a global model.
 
 ### Dataset Explanation:
 
@@ -8,9 +8,9 @@ We used **UNSW_NB15** dataset
 
 **Dataset Size:** 70k 
 
-[![Dataset Link]()](https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15?select=UNSW_NB15_training-set.csv)
-
 The raw network packets of the UNSW-NB 15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of the Australian Centre for Cyber Security (ACCS) for generating a hybrid of real modern normal activities and synthetic contemporary attack behaviours. This dataset has nine types of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode, and Worms. The Argus, and Bro-IDS tools are used and twelve algorithms are developed to generate totally 49 features with the class label.
+
+[![Dataset Link]()](https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15?select=UNSW_NB15_training-set.csv)
 
 These are the columns 
 
