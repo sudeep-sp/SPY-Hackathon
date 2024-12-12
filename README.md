@@ -2,6 +2,8 @@
 
 This project focuses on building a privacy-preserving threat detection system using Federated Learning (FL). The goal is to develop a machine-learning model capable of identifying security threats without the need to share sensitive data between devices or organizations. Federated Learning allows model training on decentralized data, ensuring that private information remains local while still enabling the collaborative training of a global model.
 
+ A technique that came up in 2016 is Federated Machine Learning (FL), which enables user groups to collaboratively train ML models without sharing their individual data with others (McMahan et al., 2016).
+
 ### Dataset Explanation:
 
 We used **UNSW_NB15** dataset
