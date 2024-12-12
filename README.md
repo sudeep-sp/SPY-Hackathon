@@ -26,7 +26,6 @@ These are the columns
 ### Tools Used
 
 `torch`
-`torchvision` 
 `matplotlib` 
 `pandas` 
 `scikit-learn`
